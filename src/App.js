@@ -11,11 +11,19 @@ export default function App() {
         <footer className="text-center">
           {" "}
           Coded by{" "}
-          <a href="https://ashleyrebeccaxr.com/" targer="_blank">
+          <a
+            href="https://ashleyrebeccaxr.com/"
+            target="_blank"
+            rel="noreferrer"
+          >
             Ashley Goldstein
           </a>{" "}
           and is{" "}
-          <a href="https://github.com/aivxx/Dictionary-App" target="_blank">
+          <a
+            href="https://github.com/aivxx/Dictionary-App"
+            target="_blank"
+            rel="noreferrer"
+          >
             open-sourced
           </a>{" "}
         </footer>
