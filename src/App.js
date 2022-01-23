@@ -1,4 +1,5 @@
 import "./App.css";
+import Button from "react-bootstrap/Button";
 import Dictionary from "./Dictionary";
 
 export default function App() {
