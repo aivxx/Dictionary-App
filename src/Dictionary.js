@@ -27,11 +27,15 @@ export default function Dictionary() {
   return (
     <div className="dictionaryApp">
       <div className="container">
-        <form onSubmit={search}>
-          <input type="search" onChange={handleKeywordChange} />
-        </form>
-        <Results results={results} />
+        <h1> Dictionary </h1>
+        <h3> What's the word?</h3>
+        <secton className="form">
+          <form onSubmit={search}>
+            <input type="search" onChange={handleKeywordChange} />
+          </form>
+        </secton>
       </div>
+      <Results results={results} />
     </div>
   );
 }

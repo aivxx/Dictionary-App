@@ -1,0 +1,23 @@
+section {
+  background-color: #ff6347;
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 0px 2px 2px 0px;
+}
+.dictionaryApp form {
+  background: wheat;
+  padding: 30px;
+  margin: 20px;
+  width: auto;
+}
+
+input {
+  padding: 6px 4px;
+  width: 25%;
+  text-align: left;
+}
+
+h1 {
+  font-size: 100px;
+  line-height: 20%;
+}
