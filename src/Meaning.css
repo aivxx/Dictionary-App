@@ -1,5 +1,4 @@
 p {
-  line-height: 15px;
 }
 
 .definition {
@@ -9,4 +8,6 @@ p {
 
 .example {
   font-size: 18px;
+  line-height: 10px;
+  margin-left: 5px;
 }
