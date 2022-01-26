@@ -1,0 +1,12 @@
+p {
+  line-height: 15px;
+}
+
+.definition {
+  font-size: 22px;
+  font-family: "Source Serif 4", sans-serif;
+}
+
+.example {
+  font-size: 18px;
+}

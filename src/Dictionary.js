@@ -28,12 +28,20 @@ export default function Dictionary() {
     <div className="dictionaryApp">
       <div className="container">
         <h1> Dictionary </h1>
-        <h3> What's the word?</h3>
-        <secton className="form">
+
+        <div className="form">
           <form onSubmit={search}>
-            <input type="search" onChange={handleKeywordChange} />
+            <h3> What's the word?</h3>
+            <input
+              type="search"
+              placeholder="Search"
+              onChange={handleKeywordChange}
+            />
+            <div className="suggested">
+              <p>suggested: cat, love, culture, music</p>
+            </div>{" "}
           </form>
-        </secton>
+        </div>
       </div>
       <Results results={results} />
     </div>
