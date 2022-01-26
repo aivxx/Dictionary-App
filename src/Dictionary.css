@@ -24,7 +24,7 @@ input {
 }
 
 h1 {
-  font-size: 100px;
+  font-size: 100px !important;
   line-height: 20%;
   font-family: "Montserrat", sans-serif;
 }
@@ -36,5 +36,6 @@ h3 {
 
 .suggested {
   font-style: italic;
-  line-height: 1px;
+  line-height: 20px;
+  margin-left: 5px;
 }

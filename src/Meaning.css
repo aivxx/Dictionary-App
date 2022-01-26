@@ -1,13 +1,15 @@
-p {
+h3 {
+  font-size: 40px !important;
 }
 
 .definition {
   font-size: 22px;
   font-family: "Source Serif 4", sans-serif;
+  margin-top: 10px;
 }
 
 .example {
   font-size: 18px;
-  line-height: 10px;
+  line-height: 2px;
   margin-left: 5px;
 }

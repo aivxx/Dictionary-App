@@ -1,5 +1,7 @@
 .Photos img {
   border-radius: 5px;
-  width: 30%;
-  box-sizing: border-box;
+  width: auto;
+  padding: 0px !important;
+  margin: 2px;
+  box-shadow: 0 10px 10px rgb(0 0 0 / 30%);
 }
